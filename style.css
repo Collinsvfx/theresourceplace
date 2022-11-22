@@ -1,0 +1,534 @@
+body * {
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+}
+
+.home_overcontainer {
+  padding: 1%;
+  width: 417px;
+  height: 100%;
+  /* border: 3px solid red; */
+  /* background-color: gray; */
+  margin-bottom: 50px;
+}
+
+.top_area {
+  margin-bottom: 30px;
+}
+
+.for-logo .logoitself {
+  width: 200px;
+  height: 45px;
+}
+
+.h-burg-line1,
+.h-burg-line2,
+.h-burg-line3 {
+  width: 40px;
+  height: 3px;
+  background-color: gray;
+}
+
+.h-burger-container {
+  cursor: pointer;
+  margin-left: 23%;
+}
+
+.logoitself {
+  cursor: pointer;
+}
+
+.sign-in {
+  margin-top: 113px;
+  margin-bottom: 80px;
+}
+
+.sign-up {
+  margin-top: 74px;
+  margin-bottom: 80px;
+}
+
+.create-acc {
+  text-align: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.create-acc-link {
+  text-decoration: none;
+  color: #545454;
+}
+
+.signin-acc-link {
+  text-decoration: none;
+  color: #545454;
+}
+
+.create-acc-link:hover {
+  color: #545454;
+  opacity: 70%;
+}
+
+.signin-acc-link:hover {
+  color: #545454;
+  opacity: 70%;
+}
+
+.modal-container {
+  position: absolute;
+  top: 0px;
+  margin-left: -1.2%;
+  width: inherit;
+  height: inherit;
+  background-color: #85da97;
+  /* opacity: 70%; */
+  /* border: 2px solid purple; */
+  /* display: none; */
+}
+
+.cancel-btn-container {
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.cancel-btn {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 130px;
+}
+
+.cancel-btn:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.modal-container {
+  display: none;
+}
+
+.modal-menu-container p {
+  text-align: center;
+  font-size: 34px;
+}
+
+.modal-menu-container .logout-link {
+  font-size: 25px;
+}
+
+.modal-menu-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.profile-link,
+.classroom-link {
+  margin-bottom: 30px;
+}
+
+.profile-link:hover,
+.classroom-link:hover,
+.about-link:hover,
+.logout-link:hover {
+  opacity: 80%;
+}
+
+.logout-link {
+  position: absolute;
+  bottom: 45px;
+  left: 170px;
+}
+
+.welcome-back {
+  margin-top: 59px;
+}
+
+/* Task container starts here */
+
+.tasks-container {
+  background-color: #e4e2e2;
+  height: 750px;
+  width: 366px;
+  margin-top: -55px;
+  border-radius: 5px;
+  /* border: 2px solid purple; */
+  /* padding-bottom: 100px; */
+}
+
+.p-task {
+  width: 150px;
+  height: 54px;
+  border-radius: 10px;
+  background-color: #84da97;
+  color: black;
+  cursor: pointer;
+  border: 2px solid #55ab68;
+  font-weight: 600;
+}
+
+.g-task {
+  width: 150px;
+  height: 54px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 2px solid #bebebe;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* to be applied later starts here */
+
+.p-task-updated {
+  width: 150px;
+  height: 54px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  border: 2px solid #bebebe;
+  font-weight: 600;
+}
+
+.g-task-updated {
+  width: 150px;
+  height: 54px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 2px solid #24a5c1;
+  background-color: #4cc9e4;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* to be applied later ends here */
+
+.two-btns {
+  padding: 18px 15px;
+  /* border: 2px solid red; */
+}
+
+.task-1 {
+  padding: 20px 44px;
+}
+
+.line-top {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin-bottom: 20px;
+}
+
+.line-bottom {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin-top: 20px;
+}
+
+.task-1 .task-readmore {
+  text-align: right;
+  margin-top: -8px;
+  font-size: 12px;
+}
+
+.task-1 .task-readmore a {
+  text-decoration: none;
+  color: rgb(41, 40, 40);
+}
+
+.task-1 .task-readmore a:hover {
+  opacity: 70%;
+}
+
+.task-description p {
+  font-family: "Lora";
+  font-size: 14px;
+}
+
+.task-readmore a {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* Task container ends here */
+
+/* Full task info starts here */
+
+.tasks-container2 {
+  background-color: #e4e2e2;
+  height: auto;
+  width: 366px;
+  margin-top: -55px;
+  border-radius: 5px;
+  /* border: 2px solid purple; */
+  /* padding-bottom: 100px; */
+}
+
+.for-full-task {
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.task-titlee {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.the-instruction span {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.the-instruction p {
+  padding-top: 10px;
+}
+
+.deadline span {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.deadline p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.deadline {
+  margin-top: 45px;
+}
+
+.submit-task-btn {
+  padding-top: 75px;
+  padding-bottom: 45px;
+}
+
+.submit-task-btn-link {
+  text-decoration: none;
+  color: black;
+}
+
+.submit-task-btn-link:hover {
+  color: #242424;
+}
+
+/* Full task info ends here */
+
+/* Submit task page starts here */
+
+.submit-link-input {
+  padding-top: 20px;
+}
+
+.form-control {
+  height: 49px;
+  /* border: 1px solid #adadad; */
+  background-color: #d9d9d9;
+}
+
+.form-control:focus-visible {
+  padding-left: 10px;
+  background-color: #d9d9d9;
+}
+
+.change-placeholder::placeholder {
+  background-color: #d9d9d9;
+  color: #424242;
+  font-style: italic;
+  font-size: 16px;
+  padding: 10px;
+  width: 312px;
+}
+
+.the-submit-btn {
+  width: 141px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #84da97;
+  color: black;
+  cursor: pointer;
+  border: 2px solid #55ab68;
+  font-weight: 400;
+}
+
+.submit-task-btn2 {
+  padding-top: 28px;
+  padding-bottom: 120px;
+}
+
+/* Submit task page ends here */
+
+/* About us starts here */
+
+.about-us-body {
+  padding-top: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.about-us-title {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about-maintext {
+  font-family: "lora";
+  font-weight: 400;
+  line-height: 25px;
+  font-style: italic;
+}
+
+.about-us-header {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+/* About us ends here */
+
+/* Profile page starts here */
+
+.profile-header {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.name-title-box {
+  margin-left: 18px;
+}
+
+.user-name {
+  display: block;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.user-title {
+  font-size: 16px;
+  columns: #686868;
+  font-weight: 400;
+}
+
+.total-task-completed {
+  margin-top: 45px;
+}
+
+.comp-task-text {
+  background-color: #ecebeb;
+  width: 238px;
+  height: 112px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-task-text span {
+  font-size: 26px;
+  color: #393838;
+  text-align: center;
+}
+
+.comp-task-count {
+  width: 152px;
+  height: 112px;
+  background-color: #85da97;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  left: -20px;
+}
+
+.comp-task-count span {
+  font-size: 48px;
+  text-align: center;
+}
+
+.achievement-history-cont {
+  margin-top: 64px;
+  /* border: 2px solid red; */
+}
+
+.history-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.history-each {
+  cursor: pointer;
+}
+
+.history-each-btop {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.history-each-bottom {
+  font-family: "Lora";
+  font-style: italic;
+}
+
+.history-each-b-bottom {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Profile page ends here */
+
+/* Chatroom page starts here */
+
+.chatroom-cover {
+  background-color: #85da97;
+  height: 1064px;
+  padding: 24px;
+}
+
+.h-burg-chat1,
+.h-burg-chat2,
+.h-burg-chat3 {
+  width: 40px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.chatroom-cont {
+  margin-top: 78px;
+}
+
+.chatroom-header {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.chatroom-cont .for-picture {
+  width: 58px;
+  height: 58px;
+}
+
+.desc-and-title {
+  padding-left: 16px;
+}
+
+.desc-and-title h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.desc-and-title span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Chatroom page ends here */

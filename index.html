@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Overall container starts here -->
+    <div class="home_overcontainer container">
+      <!-- Top area - nav -->
+      <div class="top_area row d-flex align-items-center justify-content-between">
+
+        <!-- logo starts here -->
+        <div class="for-logo col">
+          <a href="./index.html">
+            <img class="logoitself" src="../logo1.png" alt="">
+          </a>
+        </div>
+        <!-- logo ends here -->
+
+        <!-- Hamburger menu starts here -->
+        <div class="h-burger-container container col">
+          <div class="h-burg-line1"></div>
+          <div class="h-burg-line2 mt-1"></div>
+          <div class="h-burg-line3 mt-1"></div>
+        </div>
+        <!-- Hamburger menu ends here -->
+
+      </div>
+      <!-- Top area ends here - nav -->
+
+      <!-- Modal starts here -->
+      <div class="modal-container">
+
+        <p class="cancel-btn-container">
+          <img src="./cancel-btn.png" alt="" class="cancel-btn">
+        </p>
+
+        <div class="modal-menu-container">
+          <p class="profile-link"><a href="#">Profile</a></p>
+          <p class="classroom-link"><a href="#">Chatroom</a></p>
+          <p class="about-link"><a href="#">About</a></p>
+          <p class="logout-link"><a href="#">Logout</a></p>
+        </div>
+      </div>
+      <!-- Modal ends here -->
+
+      <div class="page-title">
+        <h1 class="sign-in">Sign In</h1>
+      </div>
+
+      <div class="form">
+        <div class="mb-4">
+          <label for="exampleFormControlInput3" class="form-label"
+            >User ID</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Enter your ID"
+          />
+        </div>
+          <label for="exampleFormControlInput2" class="form-label"
+            >Password</label
+          >
+          <input
+            type="password"
+            class="form-control mb-5"
+            id="exampleFormControlInput1"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div class="loginin-btn">
+          <div class="d-grid gap-2">
+            <a class="btn btn-success" type="button" href="./welcome_screen.html">Sign In</a>
+          </div>
+        </div>
+        <div class="create-acc">
+          <a class="create-acc-link" href="./signup.html">Create an account</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overall container ends here -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
