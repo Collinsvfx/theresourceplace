@@ -4,7 +4,8 @@ const modalBtn = document.querySelector(".h-burger-container");
 const modalContainer = document.querySelector(".modal-container");
 const cancelBtn = document.querySelector(".cancel-btn-container");
 const groupTaskBtn = document.querySelector(".g-task");
-const personalTaskBtn = document.querySelector(".p-task ");
+const personalTaskBtn = document.querySelector(".p-task");
+const submittedBtn = document.querySelector(".submitted-task-btn");
 
 modalBtn.addEventListener("click", function () {
   console.log(modalContainer);

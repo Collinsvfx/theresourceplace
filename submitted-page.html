@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Overall container starts here -->
+    <div class="home_overcontainer container">
+      <!-- Top area - nav -->
+      <div
+        class="top_area row d-flex align-items-center justify-content-between"
+      >
+        <!-- logo starts here -->
+        <div class="for-logo col">
+          <a href="./index.html">
+            <img class="logoitself" src="../logo1.png" alt="" />
+          </a>
+        </div>
+        <!-- logo ends here -->
+
+        <!-- Hamburger menu starts here -->
+        <div class="h-burger-container container col">
+          <div class="h-burg-line1"></div>
+          <div class="h-burg-line2 mt-1"></div>
+          <div class="h-burg-line3 mt-1"></div>
+        </div>
+        <!-- Hamburger menu ends here -->
+      </div>
+      <!-- Top area ends here - nav -->
+
+      <!-- Modal starts here -->
+      <div class="modal-container">
+        <p class="cancel-btn-container">
+          <img src="./cancel-btn.png" alt="" class="cancel-btn" />
+        </p>
+
+        <div class="modal-menu-container">
+          <p class="profile-link"><a href="./profile.html">Profile</a></p>
+          <p class="classroom-link"><a href="./chatroom.html">Chatroom</a></p>
+          <p class="about-link"><a href="./about-us.html">About</a></p>
+          <p class="logout-link"><a href="./index.html">Logout</a></p>
+        </div>
+      </div>
+      <!-- Modal ends here -->
+
+      <div class="page-title">
+        <h2 class="sign-in">Personal Tasks</h2>
+      </div>
+
+      <div class="tasks-container2 for-full-task">
+        <h5 class="task-titlee">Copy for a jewelry</h5>
+        <div class="the-instruction">
+          <span>Instruction</span>
+          <p>
+            Siadu launched a luxury jewelry, we orem ipsum dolor sit amet,
+            consectetur adipiscing elit. Quisque molestie ut nunc id volutpat.
+            Nullam sed dignissim est, at fringilla ante. Sed at ullamcorper
+            justo, a auctor est. Fusce ac tristique augue. Phasellus cursus
+            lectus eu dui sagittis, dictum interdum lacus venenatis. Mauris ante
+            enim, fringilla euismod justo sit amet, mattis porta neque. Aliquam
+            quis varius mauris. Aenean feugiat auctor posuere. Sed augue enim,
+            interdum quis semper id, sollicitudin vel dolor. Duis lacinia auctor
+            felis, non scelerisque libero ullamcorper non. Fusce eleifend ut
+            diam molestie egestas. Fusce elementum vel lectus sit amet
+            condimentum.
+          </p>
+        </div>
+        <div class="deadline">
+          <span>Deadline</span>
+          <p>Task should be submit on or before December 19, 2022</p>
+        </div>
+
+        <!-- <button disabled="disabled" class="submit-task-disabled">
+          Submitted ✅
+        </button> -->
+
+        <div class="submitted-task-btn d-flex justify-content-center">
+          <button disabled="disabled" class="submit-task-disabled">
+            Submitted ✅
+          </button>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overall container ends here -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

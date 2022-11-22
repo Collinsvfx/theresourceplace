@@ -76,14 +76,15 @@ body * {
 }
 
 .modal-container {
+  z-index: 5;
   position: absolute;
   top: 0px;
   margin-left: -1.2%;
   width: inherit;
-  height: inherit;
+  height: 1100px;
   background-color: #85da97;
   /* opacity: 70%; */
-  /* border: 2px solid purple; */
+  border: 2px solid purple;
   /* display: none; */
 }
 
@@ -532,3 +533,42 @@ body * {
 }
 
 /* Chatroom page ends here */
+
+/* submited starts here */
+
+.submit-task-disabled {
+  width: 150px;
+  height: 54px;
+  border: 2px solid #8b8585;
+  font-weight: 600;
+  background-color: #a5a3a3;
+  border-radius: 10px;
+  color: #424141;
+}
+
+.submit-task {
+  width: 150px;
+  height: 54px;
+  border-radius: 10px;
+  background-color: #a5a3a3;
+  color: black;
+  cursor: pointer;
+  border: 2px solid #8b8585;
+  font-weight: 600;
+}
+
+.submitted-task-btn {
+  padding-top: 75px;
+  padding-bottom: 45px;
+}
+
+.submitted-task-btn-link {
+  text-decoration: none;
+  color: black;
+}
+
+.submitted-task-btn-link:hover {
+  color: #242424;
+}
+
+/* submited stops here */
