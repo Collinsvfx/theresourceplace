@@ -84,7 +84,7 @@ body * {
   height: 1100px;
   background-color: #85da97;
   /* opacity: 70%; */
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   /* display: none; */
 }
 
@@ -416,6 +416,11 @@ body * {
   margin-top: 45px;
 }
 
+.all-task-cont a {
+  text-decoration: none;
+  color: black;
+}
+
 .comp-task-text {
   background-color: #ecebeb;
   width: 238px;
@@ -572,3 +577,68 @@ body * {
 }
 
 /* submited stops here */
+
+/* Individual chat starts here */
+
+.chat-user1 {
+  background-color: #c5f0cf;
+  width: 331px;
+  height: 97px;
+  border-radius: 10px;
+  margin-bottom: 33px;
+}
+
+.chat-user-img img {
+  width: 62px;
+  margin-left: 16px;
+}
+
+.username-plus-msg {
+  padding-left: 13px;
+}
+
+.username-plus-msg .username {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.username-plus-msg .msg {
+  font-family: "Lora";
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* user 2 */
+.chat-user2 {
+  background-color: #c5f0cf;
+  width: 331px;
+  height: 97px;
+  border-radius: 10px;
+  margin-bottom: 33px;
+}
+
+.chat-user2 .chat-user-img img {
+  width: 62px;
+  margin-right: 16px;
+}
+
+.chat-user2 .username-plus-msg {
+  padding-left: 13px;
+}
+
+.chat-user2 .username-plus-msg .username {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: right;
+}
+
+.chat-user2 .username-plus-msg .msg {
+  font-family: "Lora";
+  font-size: 13px;
+  font-style: italic;
+  text-align: right;
+}
+
+/* Individual chat ends here */
