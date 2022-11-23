@@ -16,12 +16,13 @@
     <!-- Overall container starts here -->
     <div class="home_overcontainer container">
       <!-- Top area - nav -->
-      <div class="top_area row d-flex align-items-center justify-content-between">
-
+      <div
+        class="top_area row d-flex align-items-center justify-content-between"
+      >
         <!-- logo starts here -->
         <div class="for-logo col">
           <a href="./index.html">
-            <img class="logoitself" src="../logo1.png" alt="">
+            <img class="logoitself" src="../logo1.png" alt="" />
           </a>
         </div>
         <!-- logo ends here -->
@@ -33,15 +34,13 @@
           <div class="h-burg-line3 mt-1"></div>
         </div>
         <!-- Hamburger menu ends here -->
-
       </div>
       <!-- Top area ends here - nav -->
 
       <!-- Modal starts here -->
       <div class="modal-container">
-
         <p class="cancel-btn-container">
-          <img src="./cancel-btn.png" alt="" class="cancel-btn">
+          <img src="./cancel-btn.png" alt="" class="cancel-btn" />
         </p>
 
         <div class="modal-menu-container">
@@ -57,41 +56,44 @@
         <h1 class="sign-in">Sign In</h1>
       </div>
 
-      <form action="">
+      <form>
+        <div class="form">
+          <div class="mb-4">
+            <label for="your-ID" class="form-label">User ID</label>
+            <input
+              type="text"
+              class="form-control"
+              id="your-ID"
+              placeholder="Enter your ID"
+            />
+          </div>
+          <div class="pass-box">
+            <label for="your-Password" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control mb-5"
+              id="your-Password"
+              placeholder="Enter your password"
+            />
+          </div>
 
-      <div class="form">
-        <div class="mb-4">
-          <label for="your-ID" class="form-label"
-            >User ID</label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="your-ID"
-            placeholder="Enter your ID"
-          />
-        </div>
-          <label for="your-Password" class="form-label"
-            >Password</label
-          >
-          <input
-            type="password"
-            class="form-control mb-5"
-            id="your-Password"
-            placeholder="Enter your password"
-          />
-        </div>
-        <div class="loginin-btn">
-          <div class="d-grid gap-2">
-            <a class="btn btn-success" type="button" >Sign In</a>
+          <div class="loginin-btn">
+            <div class="d-grid gap-2">
+              <!-- <a class="btn btn-success" type="button" >Sign In</a> -->
+              <input
+                type="button"
+                value="submit"
+                class="login-btn btn btn-success"
+              />
+            </div>
+          </div>
+          <div class="create-acc">
+            <a class="create-acc-link" href="./signup.html"
+              >Create an account</a
+            >
           </div>
         </div>
-        <div class="create-acc">
-          <a class="create-acc-link" href="./signup.html">Create an account</a>
-        </div>
-      </div>
-    </form>
-
+      </form>
     </div>
 
     <!-- Overall container ends here -->
@@ -102,5 +104,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./app.js"></script>
+    <script src="./login.js"></script>
   </body>
 </html>
